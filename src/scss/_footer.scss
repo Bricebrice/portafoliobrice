@@ -1,0 +1,44 @@
+.footer{
+    background-color: #3D3B40;
+}
+.contact{
+    margin: 0 1.5rem;
+    padding-top: 2.2rem;
+}
+//Mail y Location tienen atributos muy similares por no decir todos, pero por el tema de position relative y absolute lo he dejado asi, como podria mejorarlo?
+.mail{
+    position: relative;
+    margin-bottom: 1.1rem;
+    &-text{
+        position: absolute;
+        top: 1rem;
+        left: 5.1rem;
+        color: white;
+    }
+}
+.location{
+    position: relative;
+    &-text{
+        position: absolute;
+        top: 1rem;
+        left: 5.1rem;
+        color: white;
+    }
+}
+.rrss{
+    margin: 1.1rem 1.5rem;
+    &-list{
+        padding: 0;
+    }
+    &-item{
+        list-style: none;
+        padding-right: 3.3rem;
+        display: inline-block;
+    }
+}
+.terminos p{
+    margin: 1.1rem 1.5rem 0;
+    padding-bottom: 2.2rem;
+    font-size: 1.2rem;
+    color: white;
+}
