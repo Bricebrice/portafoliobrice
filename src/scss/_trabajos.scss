@@ -12,12 +12,12 @@
         text-align: center;
     }
 }
-.down{
-    text-align: center;
-}
 .content{
     background-color: #FAFAF8;
     padding-top: 3.3rem;
+    &--trabajos{
+        margin-top: 10.5rem;
+    }
     &--hr{
         border-bottom: solid thin #FF7F00;
         content: "";

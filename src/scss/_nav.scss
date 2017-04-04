@@ -25,10 +25,20 @@
     height: 4rem;
     border-radius: 100%;
     text-align: center;
-    &-nav{
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Chrome, Safari, Opera */
+    transform: rotate(0deg);
+    &--nav{
         display: inline-block;
         margin: 1rem 0;
     }
+}
+.button--vert{
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
 }
 .bar{
     display: block;

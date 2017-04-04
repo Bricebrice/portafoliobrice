@@ -1,5 +1,6 @@
 .footer{
     background-color: #3D3B40;
+    margin-top: 3.3rem;
 }
 .contact{
     margin: 0 1.5rem;
@@ -9,7 +10,7 @@
 .mail{
     position: relative;
     margin-bottom: 1.1rem;
-    &-text{
+    &--text{
         position: absolute;
         top: 1rem;
         left: 5.1rem;
@@ -19,7 +20,7 @@
 .location{
     position: relative;
     margin-bottom: 1.1rem;
-    &-text{
+    &--text{
         position: absolute;
         top: 1rem;
         left: 5.1rem;
@@ -28,11 +29,11 @@
 }
 .rrss{
     margin: 1.1rem 1.5rem;
-    &-list{
+    &--list{
         padding: 0;
         margin: 0;
     }
-    &-item{
+    &--item{
         list-style: none;
         padding-right: 3.3rem;
         display: inline-block;
