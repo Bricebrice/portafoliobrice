@@ -5,23 +5,19 @@ $('.button').click(function(event) {
     $('.menu').toggleClass('menu--show');
 });
 
-
-
 $(document).ready(function() {
     $('#slide-1').show();
     $('#nav-1').addClass('active-cd');
+
     function muestraSlideSiguiente() {
         var siguienteSlide = $('.slides li:visible').next();
         var slideActual = $('.slides li:visible');
         slideActual.hide();
-        // El siguiente elemento sigue siendo un li?
         if (siguienteSlide.is('li')) {
             siguienteSlide.show();
         } else {
-            // Muestra el primer elemento de nuevo
             $('.slides li').first().show();
         }
-
         var siguienteBullet = $('.active-cd').next();
         var bulletActual = $('.active-cd');
         bulletActual.removeClass('active-cd');
@@ -33,6 +29,7 @@ $(document).ready(function() {
             $('.nav li').first().addClass('active-cd');
         }
     };
+
     function muestraSlideAnterior() {
         var anteriorSlide = $('.slides li:visible').prev();
         var slideActual = $('.slides li:visible');
@@ -57,18 +54,11 @@ $(document).ready(function() {
         }
     };
         $('.next').click(muestraSlideSiguiente);
-
-        var intervaloSliders = setInterval(muestraSlideSiguiente, 2000);
-        $('.slides').mouseenter(function(){
-            clearInterval(intervaloSliders);
-        });
-        $('.slides').mouseleave(function(){
-            intervaloSliders = setInterval(muestraSlideSiguiente, 2000);
-        });
-
         $('.prev').click(function() {
             muestraSlideAnterior(); //es lo mismo que lo de arriba
         });
+
+
         $(document).keydown(function(event) {
             if (event.keyCode == 37) {
                 muestraSlideAnterior();
