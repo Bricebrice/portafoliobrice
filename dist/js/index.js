@@ -1,6 +1,6 @@
 
-$('.button').click(function(event) {
-    event.preventDefault();
+$('.button').click(function(evento) {
+    evento.preventDefault();
     $('.button').toggleClass('button--vert');
     $('.menu').toggleClass('menu--show');
 });

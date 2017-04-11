@@ -16,10 +16,13 @@
     }
 }
 .cv{
-    margin: 1.5rem;
+    background: -webkit-linear-gradient(#FAFAF8, #FFFFFF);
+    background: -o-linear-gradient(#FAFAF8, #FFFFFF);
+    background: linear-gradient(#FAFAF8, #FFFFFF);
+    padding-top: 1.1rem;
     &--list{
     list-style: none;
-    margin: 0;
+    margin: 1.5rem;
     padding: 0;
     }
 }
