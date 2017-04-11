@@ -34,6 +34,10 @@
     a{
     text-decoration: none;
     }
+    a:visited {
+    font-style: italic;
+    color: #ff7f00;
+    }
 }
 .rrss__menu{
     padding: 2.2rem 2.2rem 55%;

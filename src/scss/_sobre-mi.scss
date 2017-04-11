@@ -1,0 +1,97 @@
+.descargar{
+    margin: 3.3rem auto;
+    &--cv{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: white;
+    border: 0.1rem solid #ff7f00;
+    color: #ff7f00;
+    padding: 1.1rem 2.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    width: 12rem;
+    cursor: pointer;
+    box-shadow: 0.4rem 0.4rem 0 #FF7F00;
+    }
+}
+.cv{
+    margin: 1.5rem;
+    &--list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+}
+.experiencia{
+    position: relative;
+    margin: 2.2rem 0 1.1rem;
+    &--text{
+        position: absolute;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        bottom: -0.9rem;
+        left: 5.1rem;
+        color: black;
+    }
+    &--list{
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 2.2rem;
+        list-style: none;
+        margin: 0 0 2.2rem 0;
+        padding: 0;
+        li{
+            &:last-child{
+                color: black;
+                opacity: 0.4;
+                filter: Alpha(opacity=50);
+            }
+        }
+    }
+}
+.formacion{
+    position: relative;
+    margin: 2.2rem 0 1.1rem;
+    &--text{
+        position: absolute;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        bottom: -0.9rem;
+        left: 5.1rem;
+        color: black;
+    }
+}
+.competencias{
+    position: relative;
+    margin: 2.2rem 0 1.1rem;
+    &--text{
+        position: absolute;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        bottom: -0.9rem;
+        left: 5.1rem;
+        color: black;
+    }
+    &--list{
+        margin: 0 0 2.2rem 0;
+    }
+}
+.hobbies{
+    position: relative;
+    margin: 2.2rem 0 1.1rem;
+    &--text{
+        position: absolute;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        bottom: -0.9rem;
+        left: 5.1rem;
+        color: black;
+    }
+    &--list{
+        margin: 0 0 2.2rem 0;
+    }
+}

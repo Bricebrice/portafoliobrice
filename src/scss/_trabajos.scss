@@ -13,17 +13,19 @@
     }
 }
 .content{
-    background-color: #FAFAF8;
+    background: -webkit-linear-gradient(#FAFAF8, #FFFFFF);
+    background: -o-linear-gradient(#FAFAF8, #FFFFFF);
+    background: linear-gradient(#FAFAF8, #FFFFFF);
     padding-top: 3.3rem;
     &--trabajos{
         margin-top: 10.5rem;
     }
-    &--hr{
-        border-bottom: solid thin #FF7F00;
+    &--hrsobremi{
+        border-bottom: 0.2rem solid #FF7F00;
         content: "";
         bottom: 0;
-        margin: 0 auto 3.3rem;
-        width: 30%;
+        margin: 0;
+        width: 4.2rem;
     }
     &--title{
         text-align: center;
