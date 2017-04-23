@@ -1,0 +1,31 @@
+#scroll--down{
+    bottom: 3.3rem;
+    right: 1.5rem;
+    position: absolute;
+}
+
+.arrowright{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+.descargar{
+    margin: 3.3rem auto;
+    &--cv{
+        font-family: 'Source Sans Pro', sans-serif;
+        background-color: white;
+        border: 0.1rem solid #ff7f00;
+        color: #ff7f00;
+        padding: 1.1rem 2.2rem;
+        text-align: center;
+        text-decoration: none;
+        position: absolute;
+        bottom: 3.3rem;
+        left: 50%;
+        margin: 0.4rem auto;
+        transform: translateX(-50%);
+        width: 16rem;
+        cursor: pointer;
+        box-shadow: 0.4rem 0.4rem 0 #FF7F00;
+    }
+}

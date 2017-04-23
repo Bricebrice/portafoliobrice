@@ -12,13 +12,6 @@
 <body>
     <!-- NAV -->
     <header class="topnav">
-        <div class="button">
-            <a href="menu" class="button--nav">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-        </div>
         <div class="logo">
             <a href="index.html">
                 <svg xmlns="http://www.w3.org/2000/svg" width="62" height="38" viewBox="0 0 62 38">
@@ -26,6 +19,26 @@
                 </svg>
             </a>
         </div>
+        <div class="button">
+            <a href="menu" class="button--nav">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+        </div>
+        <nav class="navigation">
+            <div class="clearfix navigation__list">
+                <a href="sobre-mi.html">
+                    <button class="navigation__item">Sobre mí</button>
+                </a>
+                <a href="trabajos-detalle.html">
+                    <button class="navigation__item">Trabajos</button>
+                </a>
+                <a href="contacto.html">
+                    <button class="navigation__item">Contacto</button>
+                </a>
+            </div>
+        </nav>
     </header>
     <!-- END NAV -->
     <!-- MENU -->
@@ -94,83 +107,85 @@
     </div>
     <!-- END MENU -->
     <!-- HEADER -->
-    <div class="header">
-        <div class="header--image" alt="Brice saludando">
+    <div class="header flexbox__container">
+        <div class="flexbox__item">
+            <div class="header__image" alt="Brice saludando"></div>
         </div>
-        <div class="header--title">
-            <h2>¡Buenas!</h2>
+        <div class="flexbox__item">
+            <div class="header__title">
+                <h2>¡Buenas!</h2>
+                <div class="content__hr"></div>
+            </div>
+            <div>
+                <p><strong>Soy Brice C. Da Silva, diseñador web.</strong> Una página web eficaz, combina usabilidad y diseño. Por eso me defino como diseñador <strong>UX/UI</strong>, siempre pendiente del diseño y del usuario.</p>
+            </div>
         </div>
-        <div class="">
-            <p><strong>Soy Brice C. Da Silva, diseñador web.</strong> Una página web eficaz, combina usabilidad y diseño. Por eso me defino como <strong>diseñador UX/UI</strong>, siempre pendiente del diseño y del usuario.</p>
-        </div>
-    </div>
-    <!-- END HEADER -->
-    <!-- SCROLL DOWN -->
-    <a id="scroll--down" href="">
-        <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
-            <style type="text/css">
+        <a id="scroll--down" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+                <style type="text/css">
                 .st0{fill:#FF7F00;}
                 .st1{fill:#FFFFFF;}
-            </style>
-            <circle class="st1" cx="22" cy="22" r="22"/>
-            <path class="st0" d="M29.3 26c-0.4-0.4-1-0.4-1.4 0L23 30.9V10.8c0-0.6-0.4-1-1-1 -0.6 0-1 0.4-1 1v20.1L16.1 26c-0.4-0.4-1-0.4-1.4 0 -0.4 0.4-0.4 1 0 1.4l6.6 6.5c0.2 0.2 0.5 0.3 0.7 0.3s0.5-0.1 0.7-0.3l6.6-6.6C29.7 27 29.7 26.4 29.3 26z"/>
-        </svg>
-    </a>
-    <!-- END SCROLL DOWN -->
+                </style>
+                <circle class="st1" cx="22" cy="22" r="22"/>
+                <path class="st0" d="M29.3 26c-0.4-0.4-1-0.4-1.4 0L23 30.9V10.8c0-0.6-0.4-1-1-1 -0.6 0-1 0.4-1 1v20.1L16.1 26c-0.4-0.4-1-0.4-1.4 0 -0.4 0.4-0.4 1 0 1.4l6.6 6.5c0.2 0.2 0.5 0.3 0.7 0.3s0.5-0.1 0.7-0.3l6.6-6.6C29.7 27 29.7 26.4 29.3 26z"/>
+            </svg>
+        </a>
+    </div>
+    <!-- END HEADER -->
     <!-- CONTENT HOME -->
     <div class="content">
-            <div class="content--title">
-                <h2>Últimos proyectos</h2>
-                <div class="content--hr"></div>
+        <div class="content__title">
+            <h2>Últimos proyectos</h2>
+            <div class="content__hr"></div>
+        </div>
+        <a href="trabajos-detalle.html">
+            <div class="content__work">
+                <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
+                    <style type="text/css">
+                        .st0{fill:#FF7F00;}
+                        .st1{fill:#FFFFFF;}
+                    </style>
+                    <circle class="st1" cx="22" cy="22" r="22"/>
+                    <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
+                </svg>
             </div>
-            <div class="content--work">
-                <a href="trabajos-detalle.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
-                        <style type="text/css">
-                            .st0{fill:#FF7F00;}
-                            .st1{fill:#FFFFFF;}
-                        </style>
-                        <circle class="st1" cx="22" cy="22" r="22"/>
-                        <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
-                    </svg>
-                </a>
+        </a>
+        <a href="trabajos-detalle.html">
+            <div class="content__work">
+                <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
+                    <style type="text/css">
+                        .st0{fill:#FF7F00;}
+                        .st1{fill:#FFFFFF;}
+                    </style>
+                    <circle class="st1" cx="22" cy="22" r="22"/>
+                    <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
+                </svg>
             </div>
-            <div class="content--work">
-                <a href="trabajos-detalle.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
-                        <style type="text/css">
-                            .st0{fill:#FF7F00;}
-                            .st1{fill:#FFFFFF;}
-                        </style>
-                        <circle class="st1" cx="22" cy="22" r="22"/>
-                        <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
-                    </svg>
-                </a>
+        </a>
+        <a href="trabajos-detalle.html">
+            <div class="content__work">
+                <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
+                    <style type="text/css">
+                        .st0{fill:#FF7F00;}
+                        .st1{fill:#FFFFFF;}
+                    </style>
+                    <circle class="st1" cx="22" cy="22" r="22"/>
+                    <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
+                </svg>
             </div>
-            <div class="content--work">
-                <a href="trabajos-detalle.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
-                        <style type="text/css">
-                            .st0{fill:#FF7F00;}
-                            .st1{fill:#FFFFFF;}
-                        </style>
-                        <circle class="st1" cx="22" cy="22" r="22"/>
-                        <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
-                    </svg>
-                </a>
+        </a>
+        <a href="trabajos-detalle.html">
+            <div class="content__work">
+                <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
+                    <style type="text/css">
+                        .st0{fill:#FF7F00;}
+                        .st1{fill:#FFFFFF;}
+                    </style>
+                    <circle class="st1" cx="22" cy="22" r="22"/>
+                    <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
+                </svg>
             </div>
-            <div class="content--work">
-                <a href="trabajos-detalle.html">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="arrowright" width="44" height="44" viewBox="0 0 44 44">
-                        <style type="text/css">
-                            .st0{fill:#FF7F00;}
-                            .st1{fill:#FFFFFF;}
-                        </style>
-                        <circle class="st1" cx="22" cy="22" r="22"/>
-                        <path class="st0" d="M26 14.7c-0.4 0.4-0.4 1 0 1.4l4.9 4.9H10.8c-0.6 0-1 0.4-1 1 0 0.6 0.4 1 1 1h20.1L26 27.9c-0.4 0.4-0.4 1 0 1.4 0.4 0.4 1 0.4 1.4 0l6.5-6.6c0.2-0.2 0.3-0.5 0.3-0.7s-0.1-0.5-0.3-0.7l-6.6-6.6C27 14.3 26.4 14.3 26 14.7z"/>
-                    </svg>
-                </a>
-            </div>
+        </a>
     </div>
     <!-- END CONTENT HOME -->
     <!-- FOOTER -->

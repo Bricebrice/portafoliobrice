@@ -1,0 +1,52 @@
+.content{
+    background: -webkit-linear-gradient(#FAFAF8, #FFFFFF);
+    background: -o-linear-gradient(#FAFAF8, #FFFFFF);
+    background: linear-gradient(#FAFAF8, #FFFFFF);
+    padding-top: 3.3rem;
+	&--trabajos{
+		margin-top: 10.5rem;
+	}
+    &--contacto{
+        padding-top: 0;
+    }
+    &__hr{
+        border-bottom: 0.2rem solid #FF7F00;
+        content: "";
+        bottom: 0;
+        margin: 0 auto 3.3rem;
+        width: 5.7rem;
+		&--sobremi{
+			border-bottom: 0.2rem solid #FF7F00;
+			bottom: 0;
+			margin: 0;
+			width: 4.2rem;
+		}
+    }
+    &__title{
+        text-align: center;
+        h2{
+            margin-top: 0;
+        }
+    }
+    &__work{
+        position: relative;
+        background: aliceblue;
+        text-align: center;
+        height: 21.8rem;
+        width: 100%;
+        margin: 1.1rem 0;
+        -webkit-box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.5);
+	    -moz-box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.5);
+	    box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.5);
+    }
+}
+@media screen and (min-width: 768px) {
+    .content__work{
+        height: 36rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .content__hr{
+        width: 9.7rem;
+    }
+}
