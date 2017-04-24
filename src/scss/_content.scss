@@ -36,8 +36,26 @@
         }
     }
     &__work{
+        &--1{
+            background-image: url(../images/genuinus-mobile.png);
+        }
+            @include mediaTablet{
+                background-image: url(../images/genuinus-desktop.png);
+            }
+        &--2{
+            background-image: url(../images/mouvement3-desktop.png);
+            background-size: 100%;
+        }
+        &--3{
+            background-image: url(../images/autis.png);
+        }
+        &--4{
+            background-image: url(../images/logoecho-desktop.png);
+        }
+        background-size: 70% auto;
+        background-repeat: no-repeat;
+        background-position: center;
         position: relative;
-        background: aliceblue;
         text-align: center;
         height: 21.8rem;
         width: 100%;
@@ -62,6 +80,9 @@
                 width: 50%;
                 height: 100%;
             }
+        }
+        @include mediaDesktop{
+            width: 60%;
         }
     }
 }

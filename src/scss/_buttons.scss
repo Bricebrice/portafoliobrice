@@ -27,5 +27,8 @@
         width: 16rem;
         cursor: pointer;
         box-shadow: 0.4rem 0.4rem 0 #FF7F00;
+        @include mediaDesktop{
+            width: 18rem;
+        }
     }
 }

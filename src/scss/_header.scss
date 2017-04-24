@@ -5,12 +5,10 @@
         padding: 10.5rem 1.5rem 0;
     }
     &__image{
-        background: orange;
+        display: inherit;
         height: 9rem;
         width: 9rem;
         margin: 0 auto;
-        border: 0.1rem solid aliceblue;
-        border-radius: 50%;
     }
     &__title{
         text-align: center;
