@@ -21,9 +21,16 @@
 			margin: 0;
 			width: 4.2rem;
 		}
+        @include mediaTablet{
+            width: 9.7rem;
+        }
     }
     &__title{
         text-align: center;
+        @include mediaTablet{
+            margin: 0 auto;
+            width: 80%;
+        }
         h2{
             margin-top: 0;
         }
@@ -38,15 +45,23 @@
         -webkit-box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.5);
 	    -moz-box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.5);
 	    box-shadow: 0 0.5rem 0.5rem -0.5rem rgba(0, 0, 0, 0.5);
+        @include mediaTablet{
+            height: 36rem;
+        }
     }
-}
-@media screen and (min-width: 768px) {
-    .content__work{
-        height: 36rem;
-    }
-}
-@media screen and (min-width: 768px) {
-    .content__hr{
-        width: 9.7rem;
+    &__cv{
+        @include mediaTablet{
+            width: 80%;
+            margin: 0 auto;
+            &--list{
+                margin: 0;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            &--item{
+                width: 50%;
+                height: 100%;
+            }
+        }
     }
 }
